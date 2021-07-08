@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import User from "./components/user.jsx";
+function App ()  {
+    return (
+        <div>
+            <h1>USERS</h1>
+            <User name="Vaibhav" description="FSWD" />
+            <User name="Vipin" description="FSWD" />
+        </div>
+    );
 }
 
 export default App;
+
+// Props -> A data that is being passeed form one component to another
+
+// state -> A set of data that an individual component holds
