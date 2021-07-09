@@ -4,7 +4,6 @@ function App ()  {
         <div>
             <h1>USERS</h1>
             <User name="Vaibhav" description="FSWD" />
-            <User name="Vipin" description="FSWD" />
         </div>
     );
 }
