@@ -6,8 +6,15 @@ class User extends React.Component {
     this.state = {
       planet: "earth",
     };
+    console.log("Hey, I am from Constructor");
   }
+
+  componentDidMount() {
+    console.log("Hey I am from componentDidMount");
+  }
+
   render() {
+    console.log("Hey, I am from Render");
     //   Logic and shows VIEW of webpage.
     return (
       <div>
